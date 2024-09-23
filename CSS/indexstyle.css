@@ -1,0 +1,52 @@
+    *{
+      box-sizing: border-box;
+      margin:0;
+    }
+      body{
+        
+        background-image: url("purplesatinbg.gif");
+        background-color:#e4f4f7;
+        font-family: ms gothic;
+        src: url(fonts/MS\ Gothic.ttf);
+        width: 60vw;
+        margin: 3em auto;
+        text-align:center;
+      }
+
+      .container{
+        border: 3px dotted red;
+        align:center;
+        margin:auto;
+        padding:1em;
+        background-color:rgba(237, 191, 255, 0.8);
+      }
+      h1{
+        font-style: bold;
+        color:rgb(176, 0, 126)
+      }
+      nav{
+        background-color:rgba(255, 194, 247, 0.815);
+        border-radius: 20px;
+        text-decoration: none;
+      }
+
+      ul{}
+
+      li{
+        display: inline-block;
+        width:200px;
+        line-height: 3em;
+        text-decoration: none;
+      }
+      li:hover{
+        font-style: italic;
+        text-decoration: none;
+        color:black;
+      }
+
+      .hero>img{
+        margin-top:1em;
+        width:80%;
+      }
+
+     
